@@ -1,0 +1,1 @@
+a:5:{i:0;s:15:"mail@perguth.de";i:1;s:19:"hannes_boehm@gmx.de";i:2;s:11:"pub1@d3v.at";i:3;s:11:"pub2@d3v.at";i:4;s:4:"test";}
