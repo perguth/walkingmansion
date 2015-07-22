@@ -1,0 +1,56 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	background-image: url("img/house.jpg");
+	background-repeat: no-repeat;
+	background-color: #FEE800;
+}
+h1 {
+    font-size: 38px;
+	font-family: serif;
+    font-weight: bold;
+}
+h2 {
+	padding: 20px 0 10px;
+    font-size: 22px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#head {
+	width: 500px;
+	margin: 20px 0 0;
+	padding: 10px;
+}
+#content {
+	font-family: serif;
+	font-size: 18px;
+	
+	width: 500px;
+	/* Mozilla ignores crazy MS image filters, so it will skip the following */
+  		filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(enabled=true, sizingMethod=scale, src='img/90p_white.png');
+  		margin: 0 0 20px 40px;
+  		padding: 5px 10px 5px;
+}
+ul {
+	margin: 5px 0 5px 20px;
+}
+li {
+	margin: 10px 0;
+}
+p {
+	margin: 10px 0;
+}
+#content[id] {
+	background-image:url("img/90p_white.png");
+}
+#calculator {
+	background-color: white;
+	width: 600px;
+}
+#input_field {
+	padding-top: 10px;
+	margin: 0 50px;
+	text-align: left;
+}
